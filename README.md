@@ -24,3 +24,10 @@
 - **Executable** - Account created at the deployment of the smart contract. Only executable accounts can process instructions. All additional user accounts must be owned by the executable account
 - **Rent** - Lamport(SOL) that users pay to keep the account on the program. When it reaches 0, theaccount is removed. It's also possible to be rent-exempted.
 - **Data** - Serialized metadata that allows user to store custom data in the account on the blockchain
+
+## Basic Commands
+- ```solana config set --url localhost```
+- ```solana account``` -> gives address of your wallet on your machine
+- ```solana balance <address>```
+- ```solana airdrop <amt> <address>```
+- ```solana-test-validator```
